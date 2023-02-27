@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.default-box {
+  @apply flex items-center justify-center w-full h-52 rounded-2xl md:h-48 lg:h-60 sm:h-40;
+}
+
+.base-grid {
+  @apply container mx-auto grid gap-4 sm:grid-cols-2 2xl:grid-cols-4 xl:grid-cols-3 sm:p-8;
+}
