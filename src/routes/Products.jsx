@@ -17,7 +17,7 @@ function Products() {
           <h1 className="flex justify-center text-[18px] font-semibold text-white">
             {item.author}
           </h1>
-          <Link to="/Details">
+          <Link to="/">
             <img className="default-box" src={item.download_url} alt="" />
           </Link>
         </div>
